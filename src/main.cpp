@@ -24,7 +24,7 @@ CCriticalSection cs_setpwalletRegistered;
 set<CWallet*> setpwalletRegistered;
 
 CCriticalSection cs_main;
-(         0, uint256("0x879e549045ad7385419505929bc34c2316ee8f9c50078f183309bce14ba3818d"))
+
 CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
