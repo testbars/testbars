@@ -45,7 +45,7 @@ public:
     {
         if (AddressBookPage->objectName().isEmpty())
             AddressBookPage->setObjectName(QString::fromUtf8("AddressBookPage"));
-        AddressBookPage->setgeometry(QRect(0, 0, 760, 380));
+        AddressBookPage->setGeometry(QRect(0, 0, 760, 380));
         verticalLayout = new QVBoxLayout(AddressBookPage);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         labelExplanation = new QLabel(AddressBookPage);
